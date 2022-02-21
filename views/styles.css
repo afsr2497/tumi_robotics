@@ -1,0 +1,83 @@
+QWidget {
+    background-color: rgb(27,29,35);
+}
+QFrame#big_frame {
+    background-color: rgb(98,103,111);
+    border-radius: 10px;
+}
+
+QFrame#middle_frame {
+    background-color: transparent;
+}
+
+QFrame#small_frame {
+    background-color: rgb(27,29,35);
+    border-radius: 8px;
+}
+
+QLabel#nombre_ind {
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QPushButton#btn_opciones {
+    background-color: rgb(98,103,111);
+    border: solid;
+    height: 35px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+QPushButton#btn_main {
+    border-style: solid;
+    border-radius: 12px;
+    background-color: rgb(98,103,111);
+}
+
+QPushButton#btn_opciones:hover {
+    background-color: rgb(52,59,72);
+}
+
+QPushButton#btn_opciones:pressed {
+    background-color: rgb(85,170,255);
+}
+
+QPushButton#btn_main:hover {
+    background-color: rgb(52,59,72);
+}
+
+QPushButton#btn_main:pressed {
+    background-color: rgb(85,170,255);
+}
+
+QComboBox {
+    border: solid;
+    border-radius: 10px;
+    background-color: white;
+    height: 30px;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+QListView {
+    background-color: white;
+    border: solid;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+QLineEdit {
+    background-color: white;
+    color: black;
+    height: 30px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border: solid;
+    padding: 3px;
+}

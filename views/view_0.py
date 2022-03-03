@@ -67,7 +67,7 @@ class view_0(QWidget):
         self.main_layout.addWidget(self.frame_opciones,2)
 
         #Label form elements
-        self.label_seleccion.setText("Seleccione el robot a utilizar")
+        self.label_seleccion.setText("Seleccione el robot")
         self.btn_crear.setText("Crear")
         self.btn_iniciar.setText("Iniciar")
         self.btn_cerrar.setText("Cerrar")
